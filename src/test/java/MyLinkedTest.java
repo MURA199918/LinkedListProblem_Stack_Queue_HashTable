@@ -1,6 +1,8 @@
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Collections;
+
 public class MyLinkedTest {
     @Test
     public void given3Numberswhenaddedtolinkedlistaddedtotop(){
@@ -128,7 +130,7 @@ public class MyLinkedTest {
         myLinkedList.add(myFirstNode);
         myLinkedList.append(mySecondNode);
         myLinkedList.append(myThirdNode);
-        myLinkedList.append(myFirstNode);
+        myLinkedList.append(myFourthNode);
         myLinkedList.delete(40);
         myLinkedList.printMyNodes();
         boolean result = myLinkedList.head.equals(myFirstNode) &&
