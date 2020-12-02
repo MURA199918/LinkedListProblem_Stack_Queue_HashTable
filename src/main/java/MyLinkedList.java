@@ -69,6 +69,25 @@ public class MyLinkedList {
         return value;
     }
 
+    public <k> INode delete(k key){
+        INode tempnode = head;
+        INode result=null;
+        if(tempnode!=null && tempnode.getKey()==key){
+            result = tempnode;
+            this.head = tempnode.getNext();
+            return result;
+        }
+        while (tempnode!=null && tempnode.getNext()!=null){
+            if(tempnode.getKey()==key){
+                result = tempnode;
+                this.head=tempnode.getNext();
+                break;
+            }
+            tempnode = tempnode.getNext();
+        }
+        return result;
+    }
+
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempnode = head;
