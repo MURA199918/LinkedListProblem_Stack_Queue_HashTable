@@ -58,13 +58,15 @@ public class MyLinkedList {
 
     public <k> INode search(k key){
         INode tempnode = head;
+        INode value = null;
         while(tempnode!=null && tempnode.getNext()!=null){
             if(tempnode.getKey()==key){
+                value = tempnode;
                 break;
             }
             tempnode = tempnode.getNext();
         }
-        return tempnode;
+        return value;
     }
 
     public void printMyNodes(){
