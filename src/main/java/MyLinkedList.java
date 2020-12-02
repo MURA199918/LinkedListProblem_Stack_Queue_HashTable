@@ -46,6 +46,16 @@ public class MyLinkedList {
         return tempnode;
     }
 
+    public INode popLast(){
+        INode tempnode = head;
+        while(!tempnode.getNext().equals(tail)){
+            tempnode = tempnode.getNext();
+        }
+        this.tail = tempnode;
+        tempnode = tempnode.getNext();
+        return tempnode;
+    }
+
     public void printMyNodes(){
         StringBuffer myNodes = new StringBuffer("My Nodes: ");
         INode tempnode = head;
@@ -57,26 +67,4 @@ public class MyLinkedList {
         myNodes.append(tempnode.getKey());
         System.out.println(myNodes);
     }
-
-
 }
-
- /*
-
-     public INode pop(){
-        INode tempnode = this.head;
-        this.head = head.getNext();
-        return tempnode;
-     }
-
-     public INode popLast(){
-        INode tempnode = head;
-        while(!tempnode.getNext().equals(tail)){
-            tempnode = tempnode.getNext();
-        }
-        this.tail = tempnode;
-        tempnode = tempnode.getNext();
-        return tempnode;
-     }
-
-}*/
