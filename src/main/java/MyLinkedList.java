@@ -70,23 +70,17 @@ public class MyLinkedList {
         return value;
     }
 
-    public <k> INode delete(k key){
+    public void delete(INode node){
         INode tempnode = head;
         INode result=null;
-        if(tempnode!=null && tempnode.getKey()==key){
+        while (tempnode!=null && tempnode!=node){
             result = tempnode;
-            this.head = tempnode.getNext();
-            return result;
-        }
-        while (tempnode!=null && tempnode.getNext()!=null){
-            if(tempnode.getKey()==key){
-                result = tempnode;
-                this.head=tempnode.getNext();
-                break;
-            }
             tempnode = tempnode.getNext();
         }
-        return result;
+        if(tempnode==null)
+            return;
+        else
+            result.setNext(tempnode.getNext());
     }
 
     public void printMyNodes(){

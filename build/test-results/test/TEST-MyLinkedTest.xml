@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyLinkedTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-02T15:34:20" hostname="DESKTOP-J9DM2GE" time="0.006">
+<testsuite name="MyLinkedTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-03T05:52:12" hostname="DESKTOP-J9DM2GE" time="0.009">
   <properties/>
-  <testcase name="given3NumberssearchanddeleteinLinkedListResult" classname="MyLinkedTest" time="0.006">
+  <testcase name="given3NumberssearchkeyandinsertinLinkedListResult" classname="MyLinkedTest" time="0.009">
     <failure message="java.lang.AssertionError" type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
 	at org.junit.Assert.assertTrue(Assert.java:52)
-	at MyLinkedTest.given3NumberssearchanddeleteinLinkedListResult(MyLinkedTest.java:137)
+	at MyLinkedTest.given3NumberssearchkeyandinsertinLinkedListResult(MyLinkedTest.java:120)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -56,7 +56,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <system-out><![CDATA[My Nodes: 70
+  <system-out><![CDATA[My Nodes: 56->30->40->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
