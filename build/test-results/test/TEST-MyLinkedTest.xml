@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyLinkedTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-03T12:48:22" hostname="DESKTOP-J9DM2GE" time="0.004">
+<testsuite name="MyLinkedTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-12-03T14:39:30" hostname="DESKTOP-J9DM2GE" time="0.004">
   <properties/>
   <testcase name="givenNumberssortLinkedListResult" classname="MyLinkedTest" time="0.004">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at MyLinkedList.printMyNodes(MyLinkedList.java:98)
-	at SortedLinkedList.printStack(SortedLinkedList.java:33)
-	at MyLinkedTest.givenNumberssortLinkedListResult(MyLinkedTest.java:154)
+	at SortedLinkedList.printStack(SortedLinkedList.java:28)
+	at MyLinkedTest.givenNumberssortLinkedListResult(MyLinkedTest.java:156)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

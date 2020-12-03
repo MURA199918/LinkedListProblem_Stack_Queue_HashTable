@@ -149,8 +149,9 @@ public class MyLinkedTest {
         MyLinkedList myLinkedList = new MyLinkedList();
         SortedLinkedList sortedLinkedList = new SortedLinkedList();
         myLinkedList.add(myFirstNode);
-        sortedLinkedList.add(mySecondNode);
-        sortedLinkedList.add(myThirdNode);
+        //myLinkedList.printMyNodes();
+        //sortedLinkedList.add(mySecondNode);
+        //sortedLinkedList.add(myThirdNode);
         //sortedLinkedList.add(myFourthNode);
         sortedLinkedList.printStack();
     }
