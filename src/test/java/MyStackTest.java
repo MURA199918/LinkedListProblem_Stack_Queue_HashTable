@@ -12,11 +12,11 @@ public class MyStackTest {
         myStack.push(mySecondNode);
         myStack.push(myThirdNode);
         myStack.printStack();
-        //INode peak = myStack.peak();
-        //Assert.assertEquals(myThirdNode,peak);
+        INode peak = myStack.peak();
+        Assert.assertEquals(myThirdNode,peak);
     }
 
-    /*@Test
+    @Test
     public void given3NumbersinStackwhenpopedshouldmatchwithlastaddedNode(){
         MyNode<Integer> myFirstNode = new MyNode<>(70);
         MyNode<Integer> mySecondNode = new MyNode<>(30);
@@ -28,6 +28,6 @@ public class MyStackTest {
         INode pop = myStack.pop();
         myStack.printStack();
         Assert.assertEquals(myThirdNode,pop);
-    }*/
+    }
 
 }
