@@ -12,4 +12,8 @@ public class MyQueue {
     public void printStack() {
         myLinkedList.printMyNodes();
     }
+
+    public INode dequeue(){
+        return myLinkedList.pop();
+    }
 }
