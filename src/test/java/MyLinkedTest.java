@@ -133,6 +133,7 @@ public class MyLinkedTest {
         myLinkedList.append(myFourthNode);
         myLinkedList.delete(40);
         myLinkedList.printMyNodes();
+        myLinkedList.head.getNext();
         boolean result = myLinkedList.head.equals(myFirstNode) &&
                 myLinkedList.head.getNext().equals(mySecondNode) &&
                 myLinkedList.tail.equals(myFourthNode);
