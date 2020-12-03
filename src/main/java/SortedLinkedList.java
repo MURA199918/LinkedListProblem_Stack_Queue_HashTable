@@ -13,7 +13,7 @@ public class SortedLinkedList {
     public void add(INode myNode){
         INode tempnode = head;
         while(tempnode.getNext()!=null){
-            if(tempnode<myNode){
+            if(tempnode.compareTo(myNode)<0){
                 myLinkedList.append(myNode);
             }
         }

@@ -146,6 +146,7 @@ public class MyLinkedTest {
         MyNode<Integer> mySecondNode = new MyNode<>(30);
         MyNode<Integer> myThirdNode = new MyNode<>(40);
         MyNode<Integer> myFourthNode = new MyNode<>(70);
+        SortedLinkedList sortedLinkedList = new SortedLinkedList();
         MyLinkedList myLinkedList = new MyLinkedList();
         myLinkedList.add(myFirstNode);
         myLinkedList.append(mySecondNode);
