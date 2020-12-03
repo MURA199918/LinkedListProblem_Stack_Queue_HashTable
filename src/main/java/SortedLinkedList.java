@@ -1,22 +1,27 @@
 public class SortedLinkedList {
     public INode head;
-    public INode sorted;
+    public INode tail;
 
     private final MyLinkedList myLinkedList;
 
     public SortedLinkedList() {
         this.myLinkedList = new MyLinkedList();
         this.head = null;
-        this.sorted = null;
+        this.tail= null;
     }
 
     public void add(INode myNode){
         INode tempnode = head;
-        while(tempnode.getNext()!=null){
-            if(tempnode.compareTo(myNode)<0){
-                myLinkedList.append(myNode);
-            }
+        INode prevNode = null;
+        while (tempnode != null && (int) myNode.getKey() >= (int) tempnode.getKey()) {
+                prevNode = tempnode;
+                tempnode = tempnode.getNext();
         }
+        if(prevNode == null)
+            this.head = myNode;
+        else
+            prevNode.setNext(myNode);
+        myNode.setNext(tempnode);
     }
 
     public void printStack(){
