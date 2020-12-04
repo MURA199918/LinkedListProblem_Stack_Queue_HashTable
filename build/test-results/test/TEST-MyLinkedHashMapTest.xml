@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyLinkedHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-04T09:39:52" hostname="DESKTOP-J9DM2GE" time="0.013">
+<testsuite name="MyLinkedHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-04T12:16:30" hostname="DESKTOP-J9DM2GE" time="0.013">
   <properties/>
   <testcase name="givenasentence_whenwordsareaddedtoList_shouldremoveAvoidableword" classname="MyLinkedHashMapTest" time="0.013"/>
   <system-out><![CDATA[MyLinkedHashMap List{[MyLinkedListNodes{MyMapNode{k=themselves v=1}}, MyLinkedListNodes{MyMapNode{k=but v=1}->MyMapNode{k=keep v=1}}, MyLinkedListNodes{MyMapNode{k=are v=2}->MyMapNode{k=they v=1}->MyMapNode{k=they v=1}->MyMapNode{k=into v=1}}, null, null, MyLinkedListNodes{MyMapNode{k=paranoids v=1}->MyMapNode{k=putting v=1}}, MyLinkedListNodes{MyMapNode{k=deliberately v=1}}, MyLinkedListNodes{MyMapNode{k=not v=1}}, MyLinkedListNodes{MyMapNode{k=paranoid v=3}->MyMapNode{k=because v=1}->MyMapNode{k=because v=1}}, MyLinkedListNodes{MyMapNode{k=situations v=1}}]}
