@@ -1,5 +1,3 @@
-import java.util.List;
-
 public class MyLinkedList<k> {
     public INode<k> head;
     public INode<k> tail;
@@ -68,23 +66,17 @@ public class MyLinkedList<k> {
         return null;
     }
 
-    public  INode<k> delete(k key){
-        INode<k> tempnode =  head;
-        INode<k> result=null;
-        if(tempnode!=null && tempnode.getKey()==key){
+    public void delete(k key){
+        INode tempnode = head;
+        INode result=null;
+        while (tempnode!=null && tempnode.getKey()!=key){
             result = tempnode;
-            this.head = tempnode.getNext();
-            return result;
-        }
-        while (tempnode!=null && tempnode.getNext()!=null){
-            if(tempnode.getKey()==key){
-                result = tempnode;
-                this.head=tempnode.getNext();
-                break;
-            }
             tempnode = tempnode.getNext();
         }
-        return result;
+        if(tempnode==null)
+            return;
+        else
+            result.setNext(tempnode.getNext());
     }
 
     public void sortandadd(INode<k> myNode){
