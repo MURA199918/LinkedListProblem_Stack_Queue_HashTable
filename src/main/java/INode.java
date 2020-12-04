@@ -2,7 +2,7 @@ public interface INode<k> {
     k getKey();
     void setKey(k key);
 
-    INode getNext();
-    void setNext(INode next);
+    INode<k> getNext();
+    void setNext(INode<k> next);
 
 }

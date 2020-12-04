@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyHashMapTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-04T05:30:48" hostname="DESKTOP-J9DM2GE" time="0.025">
-  <properties/>
-  <testcase name="givenasentence_whenwordsareaddedtolist_shoulreturnwordfrequency" classname="MyHashMapTest" time="0.025"/>
-  <system-out><![CDATA[MyHashMapNodes{MyLinkedListNodes{MyMapNode{k=to v=2}->MyMapNode{k=be v=2}->MyMapNode{k=or v=1}->MyMapNode{k=not v=1}}}
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
