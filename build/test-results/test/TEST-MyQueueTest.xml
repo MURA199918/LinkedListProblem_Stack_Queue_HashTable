@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-03T11:09:11" hostname="DESKTOP-J9DM2GE" time="0.008">
-  <properties/>
-  <testcase name="given3Numberswhendequeuetoqueueshouldpopfrontitem" classname="MyQueueTest" time="0.008"/>
-  <system-out><![CDATA[My Nodes: 30->70
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
